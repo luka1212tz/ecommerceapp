@@ -45,6 +45,13 @@ function Navbar({ cart = [], wishlist = [], setSearch = () => {} }) {
             Sign In
           </Link>
 
+          <Link
+            to="/checkout"
+            className="hover:text-yellow-400 transition"
+          >
+            checkout
+          </Link>
+
           {/*  Wishlist */}
           <Link
             to="/wishlist"
