@@ -88,7 +88,7 @@ function Mainn({ cart, setCart, wishlist, setWishlist }) {
                 <img
                   src={product.thumbnail}
                   alt={product.title}
-                  className="w-full h-40 object-cover rounded-lg mb-4"
+                  className="w-[200px] h-40 object-cover rounded-lg mb-4"
                 />
               </Link>
 
